@@ -1,0 +1,1 @@
+Base de conhecimento COMPLETA e interna da Empresa JR ADM UFBA sobre o serviço de mapeamento de processos (MDP/MapEx 360): metodologia, BPMN, AS-IS/TO-BE, leitura de desenhos, pré-coleta, Lucid, status, Guia Prático, A3 e redesenho. Use para qualquer dúvida de membro interno sobre o serviço.
