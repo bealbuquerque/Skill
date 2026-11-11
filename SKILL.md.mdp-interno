@@ -1,0 +1,302 @@
+---
+name: "mdp-interno-mapeamento-de-processos"
+description: "Base de conhecimento COMPLETA e interna da Empresa JR ADM UFBA sobre o serviço de mapeamento de processos (MDP/MapEx 360): metodologia, BPMN, AS-IS/TO-BE, leitura de desenhos, pré-coleta, Lucid, status, Guia Prático, A3 e redesenho. Use para qualquer dúvida de membro interno sobre o serviço."
+---
+
+# MDP interno: mapeamento de processos (Empresa JR ADM UFBA)
+
+Base: Manual Interno de MDP v5 + treinamentos ORG-26.1 ("Mapeamento de processos", mar/2026, e "Redesenho de processos", mai/2026, Diretoria de Projetos). Esta é a **base de conhecimento completa e sem restrições para a equipe interna**. Ela reúne tudo o que a skill externa para clientes (`mapeamento-de-processos`, baseada no manual v4) já cobre, mais o manual v5 inteiro (inclusive os módulos marcados como Interno: pré-coleta, desenho no Lucid, revisão e status, preenchimento do Guia Prático e do A3) e o conteúdo dos dois treinamentos. Membros podem consultar tudo sobre o serviço. Único cuidado ao repassar: o material interno é o que permitiria ao cliente executar o serviço sozinho, então não deve ser entregue a clientes (o manual traz o selo "Interno: conteúdo exclusivo da equipe, não compartilhar com clientes").
+
+## Como responder
+1. Identifique o tipo de dúvida: (a) executar uma etapa, (b) ler/usar um entregável, (c) entender metodologia ou linguagem, (d) interpretar um desenho enviado, (e) padrão ou erro de desenho no Lucid.
+2. Responda direto, em português do Brasil, com o passo a passo ou a regra, e cite o padrão exato (fonte, tamanho, cor, código) quando existir. Seja sintético, mas completo.
+3. Se a dúvida depende de algo que o manual não cobre (um caso específico do cliente, decisão de gerente, convenção não documentada), diga que não está documentado, dê a melhor orientação baseada nos princípios e sugira confirmar com o gerente do projeto. Nunca invente padrões.
+4. Responda ao membro com o conteúdo completo. Se a dúvida veio de um cliente e o membro vai repassá-la, deixe claro quais partes da resposta são internas (pré-coleta, padrões do Lucid, status, preenchimento do Guia/A3, ficha de coleta, redesenho), para ele não encaminhar essas partes.
+5. Se faltar material para responder bem (ver seção "Lacunas"), peça ao usuário.
+6. Não invente dados de projeto ou de cliente (processos, códigos, cargos, achados do AS-IS, TO-BE aprovados, prazos, valores, escopo). Para um processo específico, peça o fluxograma, a página do Guia ou a descrição e interprete a partir deles. Escopo, prazo, preço e condições de contrato estão fora do manual: oriente consultar o gerente do projeto.
+7. Tom: de colega de equipe, direto e técnico. Explique um termo só quando a pergunta indicar que ele é novo para a pessoa; use exemplos do dia a dia (entrega de pizza, reembolso de despesas, produção de bolo) quando ajudar.
+
+## 1. Lógica do serviço
+Tirar o trabalho da cabeça das pessoas e transformá-lo em conhecimento da organização. Fluxo: **levantamento → desenho (BPMN 2.0, no Lucid) → validação com quem executa → documentação (Guia Prático)**. Depois, análise do **AS-IS** e proposta de **TO-BE** (redesenho).
+
+Princípios:
+- Mapear o processo como **ele é**, não como deveria ser. Exceções, desvios e travas entram no retrato.
+- O mapa é construído com quem executa; a pessoa valida o desenho.
+- Não é avaliação de desempenho de ninguém; as dificuldades apontam onde melhorar.
+- Documentação viva: se o processo muda na prática, desenho e Guia mudam.
+- Por que documentar: dependência de pessoas, ineficiências (IDC: 20 a 30% da receita; McKinsey: cerca de 20% da semana procurando informação), previsibilidade, menos retrabalho, crescimento replicável, treinamento mais rápido (exemplo McDonald's/Speedee).
+
+## 2. Conceitos-base
+- **Processo** = entrada → transformação (agregação de valor) → saída, voltado a um cliente. Elementos: gatilho, sequência de atividades, responsáveis, decisões/exceções, critério de conclusão.
+- Um processo deve ser adaptável, efetivo, mensurado, documentado e controlado (treinamento).
+- **Níveis:** macroprocesso (cadeia de valor) > processo > subprocesso > atividade > tarefa (menor nível). Nem todo mapeamento desce até a tarefa: para visão geral bastam macroprocessos; para treinar ou achar causa de problema, vá a atividades e tarefas.
+- **Organograma × mapa de processos:** organograma = quem é quem (vertical, hierarquia); mapa = como o trabalho flui (horizontal). Raias vêm do organograma (nomes iguais); todo processo tem um cargo responsável principal; problemas aparecem nas passagens entre áreas.
+- **Estratégico / tático / operacional** (treinamento): estratégico = visão geral e longo prazo; tático = visão por unidade/setor, médio prazo; operacional = rotina e curto prazo. Quanto mais específico o objetivo de um processo, menor seu grau estratégico. Áreas da empresa (analogia do corpo): comercial, financeira, operacional, RH.
+
+## 3. Etapas do projeto
+1. **Levantamento de dados:** fontes KOI (venda), KOE (kick off externo, primeiro contato), imersão na área, análise dos dados, desenho dos fluxogramas. No KOE, saber: atividade-chave da empresa, setor estudado, nº de funcionários ou de processos. Definir com o cliente o **gestor da mudança** (cobra engajamento, canaliza comunicação, idealmente implementa e acompanha melhoria contínua). Coletas seguem o direcionamento do gerente, usam roteiro de boas práticas e são organizadas na **planilha de coletas e processos** (organização é essencial).
+2. **Pré-coleta e coleta** (seção 6).
+3. **Desenho** no Lucid (seção 7), com revisão do gerente, compilação e **validação com o cliente**.
+4. **Documentação:** Guia Prático (seção 8).
+5. **Análise AS-IS e redesenho TO-BE** (seção 9).
+
+## 4. AS-IS e TO-BE
+- **AS-IS:** retrato fiel de hoje; evidencia gargalos, retrabalho, burocracia, etapas manuais. Base do redesenho.
+- **TO-BE:** versão futura planejada (eliminar desperdícios, padronizar, automatizar). **Ainda não é realidade**: até implementar, o AS-IS descreve a prática. Sem AS-IS não há TO-BE confiável.
+- **Sinais de problema:** gargalo; retrabalho (no desenho: retorno por par de túneis); redundância (ex.: mesma conferência por duas pessoas); etapa manual (ícone de mão, sequências longas de preenchimento); espera; dependência de pessoa.
+- **Estratégias de redesenho:** eliminar redundâncias (alçadas claras ou aprovações em paralelo), automatizar etapas manuais (formulários padronizados, validações), centralizar informações (tudo já na solicitação).
+- **Exemplo do manual (reembolso de despesas):** AS-IS com 2 raias (Colaborador, Analista financeiro): analista confere documentos; se incompletos, solicita comprovantes e o fluxo volta por túnel A (retrabalho que pode se repetir); cálculo, registro e arquivamento manuais; fim após 4 etapas do analista, 2 manuais. TO-BE com 3 raias (acrescenta Sistema): formulário exige anexos (some o ciclo de reenvio), valor já calculado, registro e arquivamento por tarefas de serviço, analista valida conforme política, devolução com justificativa vira caminho formal e o sistema avisa o colaborador nos dois casos.
+
+### Exemplo detalhado: reembolso de despesas (módulo 07 do manual)
+**AS-IS.** Piscina "Reembolso de despesas", 2 raias: Colaborador e Analista financeiro. Sequência (reconstruída do desenho do manual):
+1. Evento inicial "despesa realizada" (gatilho: o colaborador realiza uma despesa a reembolsar).
+2. Túnel de saída **A** (ponto de retorno do ciclo de retrabalho).
+3. Colaborador: **Enviar comprovantes por e-mail** (tarefa Enviar; anotação: notas fiscais e recibos).
+4. Analista financeiro: **Conferir documentos um a um** (manual).
+5. Gateway exclusivo **Documentação completa?** Sim: segue para o losango de fechamento. Não: **Solicitar comprovantes faltantes** (Enviar) e túnel de entrada **A**; a leitura continua no túnel de saída A, no início, o colaborador reenvia e a conferência recomeça (o ciclo pode se repetir várias vezes).
+6. Losango de fechamento (reúne os dois caminhos).
+7. **Calcular valores manualmente** (manual), **Registrar no sistema** (usuário; anotação: sistema financeiro), **Programar pagamento** (usuário), **Arquivar documentos** (manual).
+8. Evento final.
+
+Pontos numerados no manual: 1 nome do processo; 2 participantes (cada mudança de raia = passagem de trabalho); 3 gatilho; 4 decisão (dois caminhos que se reúnem no fechamento); 5 retrabalho com túneis; 6 anotação (detalha o que é enviado sem poluir o nome da tarefa); 7 etapas manuais (ícone de mão: conferência, cálculo, arquivamento); 8 fim, depois de quatro etapas do analista, duas manuais.
+
+**TO-BE.** 3 raias (entra a raia **Sistema**): Colaborador: evento inicial "despesa realizada" e **Preencher formulário com anexos** (usuário; anotação: anexos obrigatórios). Sistema: **Registrar e calcular total** (serviço). Analista financeiro: **Validar conforme a política** (usuário), gateway **Aprovado?** com Sim = **Aprovar pagamento** e Não = **Devolver com justificativa** (Enviar), caminhos reunidos no fechamento. Sistema: **Notificar o colaborador** (serviço), nos dois casos. Evento final.
+O que mudou: o ciclo de reenvio sumiu (o formulário exige anexos, então não há túnel de retorno); cálculo e registro viraram tarefas de serviço; o analista deixou de conferir item por item e passou a validar conforme a política; a devolução com justificativa virou caminho formal e o sistema avisa o colaborador em ambos os casos.
+Quadro AS-IS x TO-BE do exemplo: recibos soltos por e-mail com conferência manual e retrabalho → documentos anexados e completos junto com a solicitação; reembolso calculado item por item pelo analista → valor total já vem calculado; solicitação registrada manualmente depois da análise → já nasce registrada no sistema; documentação arquivada manualmente ao final → documentos vinculados à solicitação desde o início.
+
+## 5. Notação BPMN 2.0 (como ler e o que significa)
+Cinco formas cobrem a maior parte: círculo (evento), retângulo arredondado (tarefa), losango (decisão), seta (fluxo), faixas (raias). Estilo do Lucid da equipe:
+
+**Piscinas e raias:** piscina = moldura do processo (contexto da organização ou presença de atores externos); raia = cargo ou área (faixa azul à esquerda). Nome do processo em caixa escura acima. Seta que cruza raias = passagem de responsabilidade (ponto de atenção). Raia de um único cargo se o processo for de um cargo só. Nomes de cargos, nunca de pessoas.
+
+**Eventos:** início = azul, borda simples; intermediário = borda dupla (azul); fim = preto, borda grossa; túneis = rosa. Ícones de tipo: temporizador (data, prazo, recorrência), mensagem, condicional (regra de negócio), múltiplo. Descrição do evento vai em caixa de texto própria alinhada, fora do círculo.
+
+**Túneis (evento intermediário tipo link):** ligam dois pontos do mesmo processo sem seta. Entrada = seta preta ("lançar evento"); saída = seta branca. O par recebe o mesmo nome (ex.: A). Todo retorno a etapa anterior usa par de túneis, não seta de volta. No AS-IS, retorno quase sempre indica retrabalho. O túnel fica **sobre a linha de sequência**, não solto com traço pontilhado.
+
+**Atividades:** tarefa (não se subdivide); subprocesso (sinal de +, detalhado à parte); atividade de chamada (borda grossa, processo global reutilizado); loop (repete até condição). Ícone no canto superior esquerdo indica o tipo: usuário (pessoa com apoio de sistema, o mais comum em administrativo), manual (mundo físico, sem sistema), serviço (automático, sem humano), enviar, receber. Nome: verbo no infinitivo + objeto; detalhes (campo, botão, sistema) vão na anotação.
+
+**Gateways:** exclusivo X (só um caminho; o mais comum), paralelo + (todos ao mesmo tempo; na junção espera todos), inclusivo O (um ou mais conforme condições), baseado em evento (depende do que ocorrer primeiro, ex.: resposta chega ou prazo expira). Pergunta ao lado do losango; cada saída com a opção escrita ("Sim", "Não"); **todo gateway aberto tem um losango de fechamento sem pergunta**.
+
+**Conectores:** fluxo de sequência (linha contínua, seta cheia, conector principal); fluxo de mensagem (tracejado, círculo na origem, seta vazada, entre participantes diferentes, ex.: empresa e fornecedor); associação (pontilhada, liga anotação/documento/dado a elemento).
+
+**Artefatos:** anotação (colchete tracejado, o mais usado), objeto de dados/documento, entrada, saída, coleção de dados, armazenamento de dados (sistema, banco, pasta compartilhada), grupo.
+
+**Roteiro de leitura de um fluxograma:** (1) nome do processo; (2) raias/participantes; (3) evento inicial azul e o texto do gatilho; (4) seguir as setas (em processos longos continua na linha de baixo; túnel de entrada leva ao túnel de saída de mesmo nome); (5) parar em cada losango, ler a pergunta e seguir cada ramo até o fechamento; (6) ler as anotações; (7) chegar ao fim preto. Primeiros pontos a observar: retornos por túneis e tarefas manuais.
+
+### Ajudar a interpretar um desenho enviado
+Quando o usuário enviar imagem ou PDF de fluxograma:
+- Siga o roteiro acima e descreva em ordem: processo, raias, gatilho, caminho principal, decisões e ramos, retornos, tarefas manuais/serviço, fim.
+- Aponte sinais de problema (retrabalho, espera, redundância, etapas manuais, passagens entre raias demais) e possíveis desvios de padrão (seção 7).
+- Se a imagem estiver ilegível, ou não der para ter certeza de um símbolo, diga o que está incerto e peça uma versão maior ou a legenda. Não presuma.
+
+### Checklist de observações analíticas ao interpretar um desenho
+- **Pares de túneis** que levam a etapas anteriores: retrabalho.
+- **Tarefas manuais** (ícone de mão), sobretudo cálculo, digitação e arquivamento: candidatas a automação.
+- **Mudanças de raia**: passagens de responsabilidade; veja se há espera ou informação incompleta ali.
+- **Conferências ou aprovações repetidas**: redundância.
+- **Raia com muitas tarefas em sequência**: possível gargalo ou dependência de cargo.
+- **Gateway sem losango de fechamento** ou sem resposta nas saídas: fora do padrão, sinalize.
+- **Anotações**: indicam sistemas e documentos, úteis para saber onde a informação vive.
+- **Gatilho x evento inicial** e **valor esperado x evento final**: no Guia Prático o campo Gatilho inicial deve bater com o evento inicial do desenho, e o Valor esperado com o que o evento final entrega.
+
+### Modelo de resposta ao interpretar um desenho
+1. **Visão geral** (1 a 2 frases): nome do processo, raias, gatilho e como termina.
+2. **Passo a passo**: sequência por raia, citando tipo de tarefa e decisões.
+3. **Observações**: o que o desenho evidencia (retrabalho, etapas manuais, passagens, desvios de padrão do Lucid). Separe o que está **no desenho** do que seria **suposição sobre a operação real**.
+4. **Dúvidas em aberto**: o que não foi possível identificar com segurança. Se a imagem vier pouco legível, diga o que não leu e peça o PDF do Notion ou uma versão ampliada.
+
+### Tabela rápida de reconhecimento visual
+| Vi isto... | É... |
+|---|---|
+| Círculo azul, borda simples | Evento inicial |
+| Círculo azul, borda dupla | Evento intermediário |
+| Círculo preto, borda grossa | Evento final |
+| Círculo rosa com seta preta / branca | Túnel de entrada / de saída |
+| Retângulo arredondado com ícone de mão | Tarefa manual |
+| Retângulo com ícone de pessoa | Tarefa de usuário |
+| Retângulo com ícone de engrenagem | Tarefa de serviço (automática) |
+| Retângulo com envelope preenchido / vazado | Enviar / Receber |
+| Retângulo com + embaixo | Subprocesso |
+| Retângulo de borda grossa | Atividade de chamada |
+| Retângulo com seta circular | Loop |
+| Losango com X / + / círculo | Gateway exclusivo / paralelo / inclusivo |
+| Losango com ícone de evento | Gateway baseado em evento |
+| Colchete tracejado com texto | Anotação |
+| Linha tracejada com círculo na origem e seta vazada | Fluxo de mensagem |
+| Linha pontilhada | Associação |
+| Faixa azul vertical à esquerda | Nome da raia (cargo/área) |
+| Caixa escura acima do desenho | Nome do processo |
+
+## 6. Pré-coleta (INTERNO)
+Etapa entre a conversa com o cliente e o desenho. O registro deve permitir desenhar quase por transcrição, sem lacunas. Origem: Guia de Pré-Coleta MapEx 2025.2 (Giovana Alagia) e ficha-molde de coleta do MapEx 360.
+
+**Alinhamentos prévios obrigatórios:** escopo do processo; participantes e papéis; documentos de referência existentes; sistemas críticos; premissas e restrições do gerente; objetivo da coleta.
+
+**Cabeçalho da ficha:** setor, cargo, colaborador(es), colegas, superior, subordinado, participantes, tempo de empresa, link TL;DV da gravação, número da ficha.
+
+**As 8 perguntas (e para onde vão):** (1) nome do processo → nome no desenho e na documentação; (2) responsáveis → cada cargo vira uma raia; (3) frequência → periodicidade do Guia; (4) objetivo; (5) o que desperta o início → gatilho/evento de início; (6) o que sinaliza a conclusão → evento de fim; (7) o que pode ser melhorado e maiores impasses → base do AS-IS e do redesenho; (8) passo a passo, tarefa por tarefa (registrar antes o cargo responsável e o gatilho).
+
+**Registro por tópicos:** cada tópico = uma atividade, na ordem; formato verbo + complemento ("Validar NF no sistema"); pode ser "atividade - anotação". Gatilho em destaque no topo ("GATILHO: ..."). Espera por resposta externa entre asteriscos (*aguardo da resposta do transportador*) como passo próprio. Evitar frases longas, trechos duplicados, instruções vagas. Explicações adicionais em comentários. Teclado: Tab entra num nível de gateway (tarefas internas do fluxo condicional); Shift+Tab volta ao nível anterior.
+
+**Gateways na coleta:** a pergunta abre, cada resposta traz suas atividades, "FECHA GATEWAY" encerra. Cores diferentes para gateways aninhados, para saber qual "fecha" é de qual pergunta. Observações entre parênteses são anotação, não passo.
+
+**Túneis na coleta:** marca-texto forte onde haverá túneis; "Túnel de Entrada" no ponto exato de onde o fluxo sai; "Túnel de Saída" onde continua em outra parte. Caminhos diferentes que precisam dos mesmos passos (ex.: cadastro) terminam num túnel de entrada e o passo a passo começa num túnel de saída.
+
+**Checklist de finalização:** revisar o documento antes de desenhar; todos os gateways abertos e fechados; nenhuma atividade solta sem conexão lógica (enquanto ainda dá para validar com o cliente).
+
+## 7. Desenho no Lucid (INTERNO)
+Ponto de partida: **modelo do Lucid** (caixa escura com o nome do processo + raia azul com o cargo); troque "Digite o nome do processo" e "Digite o cargo".
+
+| Elemento | Padrão |
+|---|---|
+| Fonte raia e cargo | Inter 17 |
+| Fonte atividades e anotações | Inter 10 |
+| Opções dos gateways | tamanho 10 |
+| Caixas de atividade | de 160×120 até 175×135 |
+| Espaço entre atividades | 80 px |
+| Setas | no final da linha entre atividades e eventos; **nunca** em anotações |
+| Linha de anotação | tracejada, espessura 2 |
+| Cargos nas raias | masculino, nunca nome de pessoa |
+| Texto de atividades e anotações | verbo no infinitivo |
+
+**Layout:** evento de início no ponto mais alto e mais à esquerda; evento de fim na região mais baixa e mais à direita. Não estender o fluxo todo numa linha horizontal; **verticalizar** (quebrar em linhas) mantendo o fim à direita. Classificar cada evento em Opções avançadas > grupo do evento: Começo, Intermediário ou Fim.
+
+**Anotações:** texto alinhado à esquerda (não centralizado); linha 2 px bem posicionada (linhas pontilhadas curtas atrapalham); sem seta. Se a anotação acima da tarefa bagunça o desenho, realocar para a parte inferior do elemento.
+
+**Gateways:** pergunta ao lado do losango, opção escrita na linha, ligar com o menor número de curvas.
+
+**Inserir túnel:** inserir um evento comum > Grupo de Eventos "Intermediário" > Tipo "Link" > entrada: marcar "Lançar evento" (seta preta); saída: não marcar (seta branca). Colocar sobre a linha de sequência.
+
+**Dicionário:** palavras sublinhadas (nomes de sistemas, siglas, termos do cliente) > botão direito > "Adicionar ao dicionário".
+
+**Erros comuns:** misturar cargos/setores na mesma raia; não indicar início/fim ou indicar em posição errada; textos longos ou ambíguos nas atividades (detalhe vai para anotação); omitir o responsável por atividade crítica; não usar o ícone do tipo de tarefa.
+
+**Formato do repasse (Guia/PDF):** AS-IS e TO-BE em desenhos separados com o mesmo nome de processo; trechos muito extensos podem virar subprocesso.
+
+## 8. Revisão e controle de status (INTERNO)
+**Cor da aba no Lucid** (ordem do trabalho): Amarelo = em produção, incompleto; Verde = concluído, aguardando correção do gerente; Laranja = corrigido pelo gerente, esperando compilação; Violeta = compilação concluída, aguardando validação com o cliente; Rosa = validação concluída, aguardando ajustes dos consultores; Preto = 100% concluído, pronto para entrega. Fora da sequência: Azul = aba que categoriza setor ou cargo; Cinza = a aba possui redesenho.
+
+**Post-its:** Amarelo = correção do gerente; Verde = correção feita; Roxo = não deu para corrigir por falta de informação, validar com o cliente depois; Rosa = dúvidas e comentários do consultor ao gerente (durante a elaboração); Azul = comentários e observações do cliente na validação.
+
+**Checklist antes de enviar ao gerente:** uma raia por cargo/setor (masculino); início e fim indicados e posicionados; ícone de tipo, texto curto, verbo no infinitivo; responsável por atividade crítica identificado; anotações à esquerda, tracejada 2, sem seta; gateways abertos e fechados, poucas curvas, opções escritas; túneis em pares, sobre a linha; Inter 17 / 10 e 80 px; palavras do cliente no dicionário; dúvidas em post-its rosa.
+
+## 9. Guia Prático (entregável)
+Base com todos os processos mapeados e quem os executa. Dois formatos: **Notion** e **Google Docs**.
+
+**Notion:** página inicial + base de processos com visualizações: Processos (quadro com uma coluna por cargo; cartão com miniatura, código e descrição; número ao lado do cargo = quantos processos executa), Processos em tabela (filtrar por setor, periodicidade, código), Cargos e Funcionários. Busca por nome. **Página de processo:** fluxograma (imagem), PDF, código, setor, responsável, periodicidade (diária, semanal, mensal, sob demanda), descrição, valor esperado, gatilho inicial (= evento inicial do desenho), comentários.
+
+Preencher (INTERNO): anexar fluxograma e PDF do mesmo desenho já revisado e com aba preta; definir código e setor (sigla + sequencial sem repetir); responsável = cargo no masculino, igual à raia; marcar periodicidade; escrever descrição (um parágrafo com as principais etapas) e valor esperado; gatilho igual ao evento inicial; conferir que o texto bate com o desenho e o fim entrega o valor esperado.
+
+Estudar um processo: achar > ler descrição e valor esperado > conferir gatilho > ler o fluxograma (roteiro) > comparar o fim com o valor esperado.
+
+**Para o gestor do cliente:** distribuição de trabalho (colunas cheias = sobrecarga/dependência), rotina (periodicidade), critério de qualidade (valor esperado), treinamento (enviar o link da página), melhoria contínua (comentários).
+
+**Google Docs:** documento único, identidade da Empresa JR (logo e faixa azul). Ordem fixa: capa ("Guia Prático de Processos", projeto, mês/ano) > sumário > introdução (texto padrão trocando projeto e setores; blocos "Quem somos" e "Nossa missão"; conferir números institucionais antes de cada entrega) > lista de setores e processos mapeados > metodologias utilizadas (BPMN, Lean Office, Ishikawa, PDCA, Relatório A3, Matriz RACI). No modelo, nome do projeto e setores aparecem em roxo (trechos a atualizar a cada guia). Lista: agrupada por setor e subsetor (ex.: Financeiro > Contas a Pagar / Contas a Receber); item "Processo CÓDIGO - Nome" com código em negrito, nome em substantivo ("Conciliação bancária"), cada item com link para o material; no fim, link do Drive com as imagens.
+
+**Padrão de códigos:** `SETOR_NN` (ADM_01), `FIN_NN` (FIN_01), subsetor `FIN_CPG_NN` (Contas a Pagar), `FIN_CRC_NN` (Contas a Receber); número sequencial de 2 dígitos, separado por sublinhado. (No Notion o exemplo do manual usa formato com hífen, como RH-004; siga o padrão do projeto/gerente.)
+
+**Relatório A3** (ficha de cada processo, base PDCA + gestão visual, com elementos de POP): lado esquerdo **Estado atual (P)**: cabeçalho (processo, pré-requisito, responsável, periodicidade, CÓD), definição, valor esperado, fluxograma AS-IS, problemas. Lado direito **Estado futuro (D, C, A)**: mesmo cabeçalho, fluxograma TO-BE, descrição dos planos de ação com responsáveis, indicadores. Montar na ordem do modelo, da esquerda para a direita. Ler: cabeçalho > definição e valor esperado > estado atual > estado futuro > planos de ação > indicadores.
+
+**Notion x Google Docs:** Fluxograma = campo Fluxograma+PDF / estado atual e futuro do A3; código = Código / CÓD; descrição = Descrição / Definição; gatilho = campo próprio / sem campo (é o evento inicial). Só no Notion: PDF e Comentários. Só no Docs: pré-requisito, problemas, planos de ação com responsáveis, indicadores.
+
+## 10. Metodologias
+- **BPMN:** notação padrão de mercado (v2.0); mesma linguagem do estado atual e futuro.
+- **Lean (Office):** filosofia de zerar desperdícios, reduzir custos e aumentar produtividade, entregando valor ao cliente. 5 princípios (Lean Thinking): valor, fluxo de valor, fluxo contínuo, produção puxada, perfeição. Variantes: Manufacturing, Office (administrativo, foco do serviço), Healthcare, Construction, Service. **7 desperdícios:** defeitos, tempo de espera, movimentação, superprodução, processamento excessivo, transporte, estoques. Cultura Lean: questionar o "sempre foi assim"; Kanban (Trello, Notion, Miro, planilhas) e 5S (Seiri utilização, Seiton ordenação, Seiso limpeza, Seiketsu padronização, Shitsuke disciplina). Exemplo interno: pesquisa mostrou que clientes davam pouco valor à qualidade visual dos slides, desperdício a cortar.
+- **Diagrama de Ishikawa (espinha de peixe):** causas de um problema; 6M originais: máquina, materiais, mão de obra, meio ambiente, método, medidas (customizar conforme o projeto).
+- **5 porquês:** perguntar "por quê?" até cinco vezes, ou até a causa real.
+- **Pareto:** 80% dos resultados vêm de 20% das causas (exemplo interno: Avaliação Organizacional agrupando PC, PE e AD).
+- **PDCA:** Plan = estado atual e problemas; Do = análise crítica (Ishikawa) e estado futuro; Check = confirmar causas, planos de ação e indicadores; Act = implementar e padronizar (se não funcionou, reinicia). No A3: estado atual = P, estado futuro com planos = D, indicadores = C e A.
+- **Matriz RACI:** Responsável (executa), Aprovador/Autoridade (aprova), Consultado, Informado; cada processo numa linha.
+- **MIASP** (métodos de identificação, análise e solução de problemas): espinha de peixe, 5 porquês, benchmarking, coleta de dados, Pareto. Duas abordagens: **redesenho** (refina o processo atual) e **reengenharia** (mudança radical, como se criado do zero).
+
+## 11. Redesenho: cadeia de valor, riscos e estado futuro (treinamento mai/2026)
+- **Cadeia de valor:** não dá para desenhar todos os processos de todos os cargos; priorizar. Tipos: **finalísticos** (core, geram valor direto ao cliente), **gerenciais** (gestão da organização), **de apoio** (valor indireto). Insumos principais: RAs (relatórios de atividades); formatos: checklist, metodologia, fluxograma, fluxo de trabalho; levantar tempo gasto, frequência, passo a passo, ferramentas, finalidade.
+- **Matriz GUT:** priorizar problemas por Gravidade, Urgência, Tendência, notas de 1 a 5 (G: 1 sem gravidade a 5 extremamente grave; U: 1 pode esperar a 5 ação imediata; T: 1 não vai mudar a 5 piora rapidamente).
+- **Matriz de probabilidade e impacto:** visão simplificada de quais riscos exigem mais atenção.
+- **Estado futuro em 7 etapas:** priorização de processos, benchmarking, redesenho, controles internos, estrutura formal, definição de responsabilidades, implantação da mudança. Alinhar estratégia, estrutura e processos.
+- **Priorizar processos:** não estruturado (experiência do gestor, pouco recomendado), semiestruturado e estruturado (usam GUT e probabilidade e impacto, qualitativa/quantitativa).
+- **Benchmarking:** comparar desempenho e boas práticas do mercado; usar boas práticas não é copiar; cliente oculto é possibilidade.
+- **Controles internos:** indicadores de eficiência (resultado sobre recursos, produtividade) e de eficácia (esperado × obtido, qualidade); de acompanhamento: lead time, ociosidade, produtividade (ex.: leads contatados / leads fechados).
+- **Estrutura formal (macroestrutura):** organograma (órgãos), funcionograma (atividades de cada função), mapa de cargos (hierarquia e interdependência); modelos por cliente, geografia ou função. Responsabilidades via RACI.
+- **Implantação:** de nada adianta mapear e redesenhar sem implementar. Três fases: preparação/comunicação (comunicar, treinar, garantir recursos), execução (acompanhar de perto e corrigir desvios), estabilização (incorporar à rotina, substituir o processo anterior, registrar formalmente).
+
+## 12. Glossário completo
+| Termo | Definição |
+|---|---|
+| Anotação | Texto explicativo ligado a um elemento do fluxograma, desenhado como colchete tracejado |
+| AS-IS | Desenho do processo como acontece hoje, incluindo falhas e exceções |
+| Atividade | Ação executada dentro de um processo; no BPMN, retângulo de cantos arredondados |
+| BPMN | Business Process Model and Notation; linguagem visual padronizada para desenhar processos |
+| Código do processo | Identificador único no Guia Prático: sigla do setor (e subsetor) + número |
+| Diagrama de Ishikawa | Representa visualmente as possíveis causas de um problema; identifica a causa raiz de falhas e inconformidades |
+| Evento | Acontecimento que afeta o processo (início, meio, fim); no BPMN, um círculo |
+| Ficha de coleta (interno) | Formulário-molde da coleta: cabeçalho com dados do colaborador, 8 perguntas e passo a passo tarefa por tarefa |
+| Fluxograma | Representação visual de um processo; em BPMN, cada forma tem significado padronizado |
+| Gargalo | Etapa que limita o ritmo do processo inteiro, onde o trabalho se acumula |
+| Gateway | Ponto de decisão ou divisão do fluxo; no BPMN, um losango |
+| Gatilho inicial | Acontecimento que dá início ao processo |
+| Lean Office | Lean aplicado ao trabalho administrativo; identifica gargalos e elimina os 7 desperdícios |
+| Macroprocesso | Conjunto de processos ligados a uma grande função (ex.: Gestão financeira); cadeia de valor |
+| Matriz RACI | Distribui papéis: Responsável, Aprovador/Autoridade, Consultado, Informado |
+| Organograma | Representação da estrutura da empresa: setores, cargos e hierarquia |
+| PDCA | Plan, Do, Check, Act: ciclo de melhoria contínua; se deu certo, padroniza; se não, reinicia |
+| Periodicidade | Frequência de um processo: diária, semanal, mensal ou sob demanda |
+| Piscina | Moldura que contém o processo inteiro no desenho BPMN |
+| Post-it (interno) | Marcador colorido sobre o desenho no Lucid: correções do gerente, dúvidas, pendências, comentários do cliente |
+| Pré-coleta (interno) | Registro por tópicos da conversa com o cliente, com gateways e túneis marcados, antes de desenhar no Lucid |
+| Raia | Faixa dentro da piscina que representa um cargo ou área responsável |
+| Redesenho | Proposta de nova versão do processo que corrige os problemas do AS-IS |
+| Relatório A3 | Ficha de cada processo no Guia em Google Docs: estado atual com problemas e estado futuro com planos de ação e indicadores, no ciclo PDCA |
+| Retrabalho | Atividade refeita por erro, falta de informação ou devolução |
+| Subprocesso | Parte de um processo com lógica própria, que pode ter desenho separado |
+| Tarefa | Menor nível de atividade, que não se divide mais no desenho |
+| TO-BE | Desenho do processo como deve funcionar depois da melhoria |
+| Túnel | Evento intermediário tipo link que liga dois pontos do mesmo processo sem seta; entrada = seta preta, saída = seta branca |
+| Valor esperado | Resultado que um processo deve entregar quando executado corretamente |
+
+Outros termos do treinamento: MIASP, GUT, 5 porquês, Pareto, benchmarking, cadeia de valor, gestor da mudança, KOI, KOE (ver seções 3, 10, 11 e 14).
+Anotação; AS-IS; atividade; BPMN; código do processo; Ishikawa; evento; ficha de coleta; fluxograma; gargalo; gateway; gatilho; Lean Office; macroprocesso; RACI; organograma; PDCA; periodicidade; piscina; post-it; pré-coleta; raia; redesenho; Relatório A3; retrabalho; subprocesso; tarefa; TO-BE; túnel; valor esperado (resultado que o processo deve entregar quando executado corretamente). Definições nas seções acima.
+
+## 13. Dúvidas frequentes (respostas curtas)
+- Precisa saber BPMN a fundo para entender? Não: formas básicas + roteiro de leitura bastam.
+- Fluxograma comum × BPMN? No BPMN cada forma tem significado fixo; todos leem igual.
+- Por que o AS-IS mostra problemas? Retrata o real; problemas orientam a melhoria, não avaliam pessoas.
+- Existe TO-BE, o processo já mudou? Não necessariamente.
+- Por que cargo e não nome na raia? Para o desenho continuar válido quando a equipe mudar.
+- Processo real mudou? Atualizar fluxograma e página/A3 do Guia.
+- Quando usar túnel e não seta? Sempre que o caminho volta a etapa anterior ou salta para outra parte do desenho.
+- Atividade longa ou texto grande? Texto curto na tarefa; detalhe na anotação; trecho muito extenso vira subprocesso.
+- Cliente enviou informação incompleta? Registrar post-it roxo para validar depois; não preencher por suposição.
+
+## 13b. Perguntas adicionais frequentes
+- **Por que o retorno aparece como túnel e não como seta voltando?** Padrão do Guia Prático: todo retorno a etapa anterior usa par de túneis de mesmo nome. Mantém o desenho limpo e torna o retrabalho fácil de identificar.
+- **Por que todo losango precisa de losango de fechamento?** Um losango abre os caminhos e outro, sem pergunta, os reúne; depois o fluxo segue em linha única. Deixa claro onde a decisão termina.
+- **Qual nível de detalhe um mapeamento deve ter?** Depende do objetivo: macroprocessos bastam para visão geral; atividades e tarefas são necessárias para treinar alguém ou achar a origem de um problema.
+- **O que fazer se o cliente discordar do desenho?** A validação existe para isso: quem executa confere se o desenho corresponde à realidade. Registrar a divergência (comentários do Guia, post-it azul no Lucid) e ajustar até refletir a prática.
+- **O cliente se sentiu criticado pelo AS-IS.** Explique que o AS-IS retrata a prática real, incluindo dificuldades; os problemas orientam a melhoria e não avaliam quem executa.
+- **Posso repassar o manual aos colaboradores do cliente?** O manual diz que sim para o conteúdo voltado a leitura (resumos e módulos conceituais). Os módulos Interno (pré-coleta, Lucid, status, preenchimento do Guia/A3) não vão ao cliente.
+- **Como diferenciar fluxograma comum de BPMN?** No comum, cada pessoa interpreta do seu jeito; no BPMN cada forma tem significado fixo.
+
+## 14. Conteúdo adicional dos treinamentos (ORG-26.1)
+**Mapeamento de processos (mar/2026):**
+- Empresa = conjunto de processos e objetivos com fins de atividade econômica, organizados para a circulação de bens ou serviços. Para entender uma empresa, entender sua entrega de valor e os meios que a garantem; o output do negócio é a principal característica de estudo.
+- Ao analisar uma empresa, agimos sobre o meio direto (micro) para influenciar o indireto (macro); a empresa é o competidor, agente promotor de ações.
+- **Anatomia da empresa (analogia do corpo):** área Comercial/Negócios (boca: vendas, relacionamento, oportunidades), Financeira (medula: gastos, recebíveis, capital, patrimônio), Operacional (sistema digestivo: gera o valor e distribui a energia do negócio), RH (sistema pulmonar: seleciona, treina, sustenta a cultura). Visão simplificada com uma empresa fictícia que vende produtos: do mais estratégico ao mais operacional (estratégico, administrativo, gerência, operação); o tático é administrativo + gerência.
+- **O que se aprende no GE de ORG:** detectar processos, principais gatilhos e objetivos; usar metodologias para enxugar e direcionar a "máquina" da empresa; encaixar processos na anatomia; construir organogramas e descrições de cargos mais fidedignos.
+- **Processo** = inputs (entradas), transformações (agregação de valor) e outputs (saídas). Exemplo do treinamento: produção de bolo (ingredientes, preparo, bolo). Divisão: macroprocesso (cadeia de valor) > processo > atividades > tarefas, com subprocessos dentro de processos.
+- **BPMN no treinamento:** permite a qualquer pessoa ler, entender e discutir um processo sem texto longo (o que entra, o que é feito, quem faz, como termina). Elementos: piscinas e raias (piscina = contexto da organização ou do processo, ou atuação de atores externos/outros setores; raias = campos de atuação de um cargo) e objetos de fluxo (eventos, tarefas, gateways, conectores, artefatos).
+- **Lean, exemplo prático interno (slides 37 e 38):** fluxo da chegada da alocação do diretor de projetos até marcar o Kick Off Externo com o cliente. Desperdícios do AS-IS: necessidade de contatar o gerente para receber explicação do projeto e tempo de espera pela resposta do gerente comercial. No TO-BE entra um documento de onboarding feito pelo gerente comercial e lido pelo consultor. (Descrito a partir dos slides; detalhes do desenho podem variar.)
+- **Lean, exemplo na empresa:** pesquisa com clientes mostrou que a "qualidade visual" das etapas era o aspecto que menos importava; slides caprichados gastam tempo e não entregam valor, ou seja, desperdício.
+- **Organização como pilar:** Kanban e ferramentas (Excel, Trello, Notion, Slack, Miro, Lucidchart) desde o início do mapeamento.
+
+**Redesenho de processos (mai/2026):** ver seção 11. Etapas apresentadas no treinamento: 1 Cadeia de valor; 2 Levantamento de riscos por meio de matrizes; 3 Modelagem do estado futuro.
+
+**Como ler um organograma:** níveis (de cima para baixo: diretoria, setores, cargos; mais alto = maior abrangência de decisão); linhas (a quem cada setor ou cargo responde); legenda (setores, diretoria, colaboradores, terceirizados; parceiros externos também podem aparecer, pois participam de processos).
+
+**Versões e fontes:** a skill externa se baseia no manual v4, marcado "para validação"; o v5 é mais completo. Se um cliente citar algo que não bate, pergunte qual versão ele leu. As estatísticas do módulo "Por que documentar" (IDC e McKinsey) aparecem no manual sem link de fonte; cite como "levantamentos citados no manual".
+
+## Lacunas e divergências conhecidas (avise quando relevante)
+- O manual descreve o PDCA do A3 como P / D / C+A; o treinamento descreve Do (análise crítica com Ishikawa + estado futuro) e Check (confirmar causas, planos de ação, indicadores). Trate como visões complementares.
+- O treinamento lista 3 formas de priorizar processos, mas o texto de "semiestruturado" e "estruturado" está idêntico nos slides; confirmar a diferença com o gerente.
+- Formato de código no Notion (ex.: RH-004) difere do padrão do Google Docs (FIN_CPG_02). Seguir o definido no projeto.
+- Não há nesta base: ficha-molde preenchida, planilha de coletas, exemplos reais de A3/Guia, modelos de KOE, matriz GUT preenchida. Se a dúvida exigir isso, peça o material ao usuário em vez de supor.
